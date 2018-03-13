@@ -1,0 +1,12 @@
+doctype
+html
+	head
+		!=partial("../_shared/head")
+	body
+		.main
+			!=partial("../_shared/nav")
+			.markdown-body.container.text-container.text-container-center.pad-nav
+				a(href="/posts") Back to all posts
+				!= yield
+			.pad-footer
+			!=partial("../_shared/footer")

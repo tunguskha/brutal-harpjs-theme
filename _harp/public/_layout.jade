@@ -1,0 +1,10 @@
+doctype
+html
+	head
+		!=partial("_shared/head")
+	body
+		.main
+			!=partial("_shared/nav")
+			!= yield
+			//p.container _layout.jade c'est sur toutes les pages en fait, et le yield appel juste index.jade dans le même dossier 
+			!=partial("_shared/footer")

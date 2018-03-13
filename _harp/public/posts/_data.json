@@ -1,0 +1,14 @@
+{
+	"my-third-post": {
+		"layout": "_single-post-layout",
+    "title": "My third post"
+  },
+  "my-second-post": {
+		"layout": "_single-post-layout",
+    "title": "My second post"
+  },
+  "my-first-post": {
+		"layout": "_single-post-layout",
+    "title": "My first post"
+  }
+}

@@ -1,0 +1,5 @@
+body
+	.main
+		.markdown-body.container.text-container.text-container-center.pad-nav
+			for post, slug in public.posts._data
+				h2: a(href="/posts/#{ slug }")= post.title

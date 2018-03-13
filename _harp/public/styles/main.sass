@@ -1,0 +1,84 @@
+@import _partials/_colors
+
+html, body
+	height: 100%
+
+body
+	color: $dark-grey
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+	font-size: 16px
+	color: #666
+	line-height: 1.7
+	font-weight: 400
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	-moz-font-feature-settings: "liga" on
+
+h1, h2, h3, h4, h5, h6
+	margin: 1.414em 0 .5em
+	font-weight: 400
+
+h1, h2, h3, h4
+	line-height: 1.35em
+
+header
+	text-align: center
+	padding: 50px 0
+
+footer
+	text-align: center
+	color: lighten($dark-grey, 35%)
+	background: lighten($dark-grey, 70%)
+	font-size: 14px
+	position: absolute
+	bottom: 0
+	width: 100%
+
+.main
+	min-height: 100%
+	margin: 0 auto
+	position: relative
+	padding-bottom: 55px
+
+.container
+	width: 88%
+	max-width: 1080px
+	margin: 0 auto
+	position: relative
+
+.clearfix::after
+  content: ''
+  display: block
+  clear: both
+
+nav
+	max-width: 100%
+	padding: 1.5em 0
+	background: transparent
+	color: $dark-grey
+	a
+		color: $dark-grey
+		text-decoration: none
+	a.logo
+		float: left
+		font-size: 2em
+	ul
+		padding-top: 12px
+		margin: 0
+		float: right
+		li
+			display: inline
+			margin: 0 0 0 30px
+
+.text-container
+	max-width: 640px
+
+.text-container-center
+	margin-left: auto
+	margin-right: auto
+
+.pad-nav
+	padding-top: 90px
+
+.pad-footer
+	padding-bottom: 40px
