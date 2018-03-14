@@ -1,3 +1,3 @@
 # brutal-harpjs-theme
 
-[Live Preview](https://github.com/tunguskha/brutal-harpjs-theme)
+[Live Preview](https://tunguskha.github.io/brutal-harpjs-theme/)
